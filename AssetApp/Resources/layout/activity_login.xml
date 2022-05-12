@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/pictwo" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher_foreground"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp" />
+
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0.0dp">
+
+                <TextView
+                    style="@style/LearnHeadingBig"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:textStyle="bold"
+                    android:text="LOG IN"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    style="@style/LearnHeadingBig"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:text="LHRC Flex Assets App"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/primaryshapebg"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:textSize="20dp"
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="E-mail"
+                    android:textColorHint="@color/colorGreyText"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/shadow_edittext"
+                    android:padding="16dp"
+                    android:maxLength="20"
+                    android:drawableLeft="@drawable/outline_email_24"
+                    android:drawablePadding="35dp"
+                    android:layout_marginRight="10dp"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:textSize="20dp"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColorHint="@color/colorGreyText"
+                    android:textColor="@color/colorPrimaryText"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/shadow_edittext"
+                    android:maxLength="18"
+                    android:padding="16dp"
+                    android:drawableLeft="@drawable/outline_lock_24"
+                    android:drawablePadding="35dp"
+                    android:layout_marginRight="10dp"
+                    android:textCursorDrawable="@null"
+                    android:layout_marginTop="14.0dp" />
+
+
+            </LinearLayout>
+         </LinearLayout>
+
+
+</FrameLayout>
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect"
+        android:text="Log In"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:padding="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

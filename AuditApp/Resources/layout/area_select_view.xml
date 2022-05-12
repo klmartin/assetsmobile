@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlLineItem"
+    android:background="@color/transparent"
+    android:paddingStart="@dimen/spacing_small"
+    android:paddingEnd="@dimen/spacing_standard_new"
+    android:paddingTop="@dimen/spacing_middle"
+    android:paddingBottom="@dimen/spacing_middle">
+
+    <LinearLayout
+        android:id="@+id/llLineInfo"
+        android:orientation="vertical"
+        
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_control_half"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/areaLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/FontSemiBold"
+            android:textSize="@dimen/font_size_normal"
+            tools:text="Sumsung AC" />
+       
+        <TextView
+            android:id="@+id/areaSite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/spacing_control_half"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/font_size_medium"
+            tools:text="CITS Dodoma" />
+
+    </LinearLayout>
+
+     <CheckBox
+            android:id="@+id/chk1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
+
+</RelativeLayout>

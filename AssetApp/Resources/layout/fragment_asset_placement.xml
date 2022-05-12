@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/in_submit_btn">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:minWidth="25px"
+            android:minHeight="25px">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Asset"
+            android:textSize="12dp"
+            android:textColor="@color/colorPrimaryText"
+            android:gravity="left"
+            android:padding="6dp"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="12.0dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="46.5dp"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/spacing_middle"
+            android:background="@drawable/shadow_edittext">
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:textSize="24dp"
+                android:background="@drawable/shadow_edittext"
+                android:id="@+id/spinnerrr"
+                android:layout_width="363.0dp"
+                android:layout_height="50dp"
+                android:hint="Source"
+                android:textColorHint="@color/colorPrimaryText"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_marginLeft="0.0dp"
+                android:maxLength="27"
+                android:padding="8dp"
+                android:layout_marginRight="5.5dp" />
+
+            <Button
+                android:drawableStart="@drawable/outline_qr_code_24"
+                android:layout_margin="@dimen/spacing_small"
+                android:layout_width="32.5dp"
+                android:layout_height="60.0dp"
+			    android:background="@drawable/rect" 
+                android:id="@+id/btn_scan_asset"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="4.5dp" />
+
+        </RelativeLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30.0dp"
+                android:text="Select Site"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimaryText"
+                android:gravity="left"
+                android:padding="6dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginLeft="0.0dp"
+                android:layout_marginBottom="0.0dp"
+                android:id="@+id/textView1" />
+
+             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:textSize="24dp"
+                android:background="@drawable/shadow_edittext"
+                android:id="@+id/location_spinner"
+                android:layout_width="363.0dp"
+                android:layout_height="50dp"
+                android:hint="Source"
+                android:textColorHint="@color/colorPrimaryText"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_marginLeft="0.0dp"
+                android:maxLength="27"
+                android:padding="8dp"
+                android:layout_marginRight="5.5dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/savePlacement"
+            android:layout_width="129.0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect1"
+            android:text="Submit"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="13dp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="227.5dp"
+            android:layout_marginRight="25.0dp" />
+
+    </LinearLayout>
+</RelativeLayout>

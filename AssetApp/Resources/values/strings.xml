@@ -1,0 +1,23 @@
+<resources>
+	<string name="app_name">Assets</string>
+	<string name="incidence_fragment_name">Incidence</string>
+	<string name="action_logout">Log out</string>
+	<string name="action_go_to_web">Go To Web</string>
+	<string name="action_update">Update</string>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="font_bold">fonts/Poppins-Bold.ttf</string>
+	<string name="font_medium">fonts/Poppins-Medium.ttf</string>
+	<string name="font_regular">fonts/Poppins-Regular.ttf</string>
+	<string name="font_semi_bold">fonts/Poppins-SemiBold.ttf</string>
+	<string name="location">Asset Location: </string> 
+	<string name="spinnerrr_prompt">Select New Site</string>
+	<string-array name="dropdown_arrays">
+		    <item>Excellent</item>
+			<item>Very good</item>
+			<item>Fair</item>
+			<item>Bad</item>
+			<item>Very bad</item>
+		    <item>Damaged</item>
+	</string-array>	
+</resources>

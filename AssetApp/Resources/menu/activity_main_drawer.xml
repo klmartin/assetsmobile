@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+	<group android:checkableBehavior="single">
+
+		<item android:title="Communicate">
+		<item
+            android:id="@+id/nav_asset_profile"
+            android:icon="@drawable/ic_menu_outline_chair_24"
+            android:title="Asset Profile" />
+		<item
+            android:id="@+id/nav_incidence"
+            android:icon="@drawable/ic_menu_outline_report_24"
+            android:title="Incidence" />
+		<item
+            android:id="@+id/nav_placement"
+            android:icon="@drawable/ic_menu_outline_location_on_24"
+            android:title="Placement" />
+		</item>
+	</group>
+
+
+</menu>
+

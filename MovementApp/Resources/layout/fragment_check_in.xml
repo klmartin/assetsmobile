@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/in_submit_btn">
+
+        <com.google.android.material.textfield.TextInputLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30.0dp"
+                        android:text="Select User"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorPrimaryText"
+                        android:gravity="left"
+                        android:padding="6dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="0.0dp"
+                        android:layout_marginBottom="0.0dp" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:textSize="24dp"
+                        android:background="@drawable/shadow_edittext"
+                        android:id="@+id/et_check_in_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="Source"
+                        android:textColorHint="@color/colorPrimaryText"
+                        android:textColor="@color/colorPrimaryText"
+                        android:layout_marginLeft="0.0dp"
+                        android:maxLength="27"
+                        android:padding="8dp"
+                        android:layout_marginRight="5.5dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30.0dp"
+                        android:text="Search Asset"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorPrimaryText"
+                        android:gravity="left"
+                        android:padding="6dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="0.0dp"
+                        android:layout_marginBottom="0.0dp" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:textSize="24dp"
+                        android:background="@drawable/shadow_edittext"
+                        android:id="@+id/et_check_in_asset"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="Source"
+                        android:textColorHint="@color/colorPrimaryText"
+                        android:textColor="@color/colorPrimaryText"
+                        android:layout_marginLeft="0.0dp"
+                        android:maxLength="27"
+                        android:padding="8dp"
+                        android:layout_marginRight="5.5dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/rvCheckInAssets"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorGrey"
+              android:layout_margin="@dimen/_10sdp" />
+
+    </LinearLayout>
+     <TextView
+        android:id="@+id/in_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect1"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:padding="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

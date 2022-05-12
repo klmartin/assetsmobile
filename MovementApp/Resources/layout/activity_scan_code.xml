@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <EDMTDev.ZXingXamarinAndroid.ZXingScannerView
+        android:layout_width="match_parent"
+        android:layout_height="462.0dp"
+        android:id="@+id/zxScan"
+        android:minWidth="25px"
+        android:minHeight="25px">
+
+    </EDMTDev.ZXingXamarinAndroid.ZXingScannerView>
+
+     <TextView
+        android:id="@+id/scan_done_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect"
+        android:text="Done"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:padding="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/zxScan"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

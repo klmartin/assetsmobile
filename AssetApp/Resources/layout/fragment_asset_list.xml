@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="111.0dp">
+        <EditText
+            android:textSize="20dp"
+            android:id="@+id/et_asset_scanbox"
+            android:layout_width="0dp"
+            android:layout_height="49.5dp"
+            android:layout_weight=".75"
+            android:hint="Search"
+            android:textColorHint="@color/colorPrimaryText"
+            android:textColor="@color/colorPrimaryText"
+            android:background="@android:color/transparent"
+            android:inputType="text"/>
+
+        <Button
+            android:drawableEnd="@drawable/outline_qr_code_24"
+            android:layout_width="0dp"
+            android:layout_height="49.5dp"
+            android:layout_weight=".25"
+            android:background="@android:color/transparent"
+            android:id="@+id/btn_scan_asset"
+            android:layout_alignParentEnd="true"/>
+
+    </LinearLayout>
+</LinearLayout>

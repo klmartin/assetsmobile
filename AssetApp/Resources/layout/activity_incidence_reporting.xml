@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent">
+
+	<Toolbar 
+    android:id="@+id/toolbar2"
+    android:layout_width="match_parent"
+    android:title="Incidence reporting"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/actionBarSize"
+    android:background="?android:attr/colorPrimary"
+    android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
+
+
+	<RelativeLayout 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:background="@drawable/shadoe" 
+		android:layout_margin="@dimen/spacing_medium" 
+		android:padding="@dimen/spacing_middle" 
+		android:layout_marginTop="0.0dp">
+		<ScrollView 
+			   android:layout_width="match_parent" 
+			   android:layout_height="match_parent">
+			<LinearLayout 
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="vertical" 
+				android:padding="@dimen/spacing_medium" 
+				android:layout_marginLeft="12.0dp">
+				<TextView 
+					android:id="@+id/label_tag" 
+					android:text="Tag:" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="5.0dp" />
+				<EditText 
+					android:id="@+id/tag_input" 
+					android:textSize="15dp" 
+					android:layout_width="match_parent" 
+					android:layout_height="50dp" 
+					android:hint="Eg 0101101011" 
+					android:textColorHint="@color/colorGreyText" 
+					android:textColor="@color/colorPrimaryText" 
+					android:inputType="textAutoComplete" 
+					android:background="@drawable/shadow_edittext" 
+					android:maxLength="18" 
+					android:padding="10dp" 
+					android:drawableLeft="@drawable/outline_drive_file_rename_outline_24" 
+					android:drawablePadding="35dp" 
+					android:layout_marginRight="10dp" 
+				    android:editable="false"
+					android:layout_marginTop="10.0dp" />
+				 
+				<TextView 
+					android:id="@+id/label_name1" 
+					android:text="Name:" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="5.0dp" />
+				<EditText 
+					android:id="@+id/name_input" 
+					android:textSize="15dp" 
+					android:layout_width="match_parent" 
+					android:layout_height="50dp" 
+					android:hint="Eg Computer" 
+					android:textColorHint="@color/colorGreyText" 
+					android:textColor="@color/colorPrimaryText" 
+					android:inputType="textAutoComplete" 
+					android:background="@drawable/shadow_edittext" 
+					android:maxLength="18" 
+					android:padding="10dp" 
+					android:drawableLeft="@drawable/outline_drive_file_rename_outline_24" 
+					android:drawablePadding="35dp" 
+					android:layout_marginRight="10dp" 
+				    android:editable="false"
+					android:layout_marginTop="10.0dp" />
+				<TextView 
+					android:id="@+id/incidence_title_label" 
+					android:text="Incidence Title:" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="5.0dp" />
+				<EditText 
+					android:id="@+id/incidence_title_input" 
+					android:textSize="15dp" 
+					android:layout_width="match_parent" 
+	                android:layout_height="50dp" 
+					android:hint="Eg Asset damage" 
+					android:textColorHint="@color/colorGreyText" 
+					android:textColor="@color/colorPrimaryText" 
+					android:inputType="textAutoComplete" 
+					android:background="@drawable/shadow_edittext" 
+					android:maxLength="18" 
+					android:padding="10dp" 
+					android:drawableLeft="@drawable/outline_drive_file_rename_outline_24" 
+					android:drawablePadding="35dp" 
+					android:layout_marginRight="10dp" 
+					android:textCursorDrawable="@null" 
+					android:layout_marginTop="10.0dp" />
+				<TextView 
+					android:id="@+id/description_label" 
+					android:text="Description:" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="5.0dp" />
+				<EditText 
+					android:id="@+id/description_input" 
+			     	android:textSize="15dp" 
+					android:layout_width="match_parent" 
+				    android:layout_height="50dp" 
+					android:hint="Eg I would like to report an asset..." 
+					android:textColorHint="@color/colorGreyText" 
+					android:textColor="@color/colorPrimaryText" 
+					android:inputType="textAutoComplete" 
+					android:background="@drawable/shadow_edittext" 
+					android:maxLength="18" 
+					android:padding="10dp" 
+					android:drawableLeft="@drawable/outline_drive_file_rename_outline_24" 
+					android:drawablePadding="35dp" 
+					android:layout_marginRight="10dp" 
+					android:textCursorDrawable="@null" 
+					android:layout_marginTop="10.0dp" />
+				<TextView 
+					android:id="@+id/occurence_label" 
+					android:text="Ocurrence Date:" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" android:layout_marginTop="5.0dp" />
+				<Button 
+					android:id="@+id/occurence_input" 
+					android:text="Pick date" 
+					android:layout_width="match_parent" 
+					android:layout_height="50dp"
+					android:background="@drawable/shadow_edittext" 
+					android:padding="10dp" 
+					android:layout_marginRight="10dp" 
+					android:layout_marginTop="10.0dp"  />
+
+				
+
+				<TextView 
+					android:id="@+id/contition_label" 
+					android:text="Condition:" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="5.0dp" />
+				
+				<Spinner 
+					android:id="@+id/spinner" 
+					android:textSize="15dp" 
+					android:entries="@array/dropdown_arrays"
+					android:layout_width="match_parent" 
+					android:layout_height="50dp" 
+					android:gravity="center"
+					android:textColor="@color/colorPrimaryText"
+					android:background="@drawable/shadow_edittext" 
+					android:maxLength="18" 
+					android:padding="10dp" 
+					android:drawableLeft="@drawable/outline_drive_file_rename_outline_24" 
+					android:drawablePadding="35dp" 
+					android:layout_marginRight="10dp" 
+					android:layout_marginTop="10.0dp" />
+
+
+
+				<Button 
+					android:id="@+id/submit" 
+					android:layout_width="match_parent" 
+					android:layout_height="wrap_content" 
+					android:background="@drawable/rect" 
+					android:text="Save" 
+					android:textSize="20dp" 
+					android:gravity="center" 
+					android:layout_marginRight="10dp" 
+					android:layout_marginLeft="5dp" 
+					android:padding="13dp" 
+					android:layout_alignParentBottom="true" 
+					android:layout_marginBottom="18dp" 
+					android:layout_marginTop="10.0dp" 
+					android:textColor="@android:color/white" />
+			</LinearLayout>
+		</ScrollView>
+	</RelativeLayout>
+</LinearLayout>
+

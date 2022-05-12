@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlMovementItem"
+    android:background="@drawable/shadoe"
+    android:paddingStart="@dimen/spacing_small"
+    android:paddingEnd="@dimen/spacing_standard_new"
+    android:paddingTop="@dimen/spacing_middle"
+    android:paddingBottom="@dimen/spacing_middle">
+
+    <ImageView
+        android:id="@+id/movementItemImage"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="85.5dp"
+        android:src="@android:drawable/gallery_thumb"
+        android:contentDescription=""
+        android:layout_margin="@dimen/_5sdp" />
+
+ 
+
+    <LinearLayout
+        android:id="@+id/llMovementInfo"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/movementItemImage"
+        android:layout_marginTop="@dimen/spacing_control_half"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/llMovementInfo2"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/spacing_control_half"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvMovementItemName"
+                android:layout_width="213.5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryText"
+                android:textStyle="bold"
+                android:textAppearance="@style/FontSemiBold"
+                android:textSize="@dimen/font_size_normal"
+                tools:text="Samsung AC"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginRight="10.0dp" />
+
+
+            <TextView
+                android:id="@+id/deleteMovementItem"
+                android:layout_width="18.0dp"
+                android:layout_height="21.0dp"
+                android:text=" X"
+                android:textColor="@color/colorPrimaryText"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginLeft="12.5dp"
+                android:layout_marginBottom="5.0dp"
+                android:background="@drawable/shadow_edittext"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMvtItemConditionLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="normal"
+            android:textSize="@dimen/font_size_small"
+            tools:text="Select Condition"
+            android:layout_marginBottom="0.0dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="38.5dp"
+            android:background="@drawable/shadow_edittext"
+            android:id="@+id/spItemCondition"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+	<style name="FlexHeadingBig">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">@dimen/small_margin_three</item>
+		<item name="android:textColor">@color/colorPrimaryText</item>
+		<item name="font">@string/font_bold</item>
+	</style>
+
+	<style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowTranslucentStatus">true</item>
+		<item name="android:windowTranslucentNavigation">false</item>
+		<item name="android:windowBackground">@drawable/splash_screen</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+	
+
+	<style name="FontMedium">
+		<item name="font">@string/font_medium</item>
+	</style>
+
+	<style name="FontSemiBold">
+		<item name="font">@string/font_semi_bold</item>
+	</style>
+
+	<style name="FontBold">
+		<item name="font">@string/font_bold</item>
+	</style>
+	<string-array name="flex_asset_condition">
+		<item>exellent</item>
+		<item>very good</item>
+		<item>good</item>
+		<item>fair</item>
+		<item>bad</item>
+		<item>very bad</item>
+		<item>damaged</item>
+	</string-array>
+</resources>

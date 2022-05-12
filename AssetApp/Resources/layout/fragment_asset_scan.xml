@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shadoe"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/spacing_middle"
+            android:background="@drawable/shadow_edittext">
+
+            <EditText
+                android:textSize="20dp"
+                android:id="@+id/et_asset_scanbox"
+                android:layout_width="301.5dp"
+                android:layout_height="60.0dp"
+                android:hint="Search"
+                android:textColorHint="@color/colorGreyText"
+                android:textColor="@color/colorPrimaryText"
+                android:background="@color/transparent"
+                android:inputType="text"
+                android:padding="16dp"
+                android:maxLength="20"/>
+
+            <Button
+                android:drawableStart="@drawable/outline_qr_code_24"
+                android:layout_margin="@dimen/spacing_small"
+                android:layout_width="32.5dp"
+                android:layout_height="60.0dp"
+                android:background="@color/colorWhite"
+                android:id="@+id/btn_scan_asset"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="4.5dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearchedAssets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/spacing_middle"
+        android:paddingBottom="@dimen/spacing_standard_new"
+        android:paddingStart="@dimen/spacing_middle"
+        android:paddingEnd="@dimen/spacing_middle"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:overScrollMode="never"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

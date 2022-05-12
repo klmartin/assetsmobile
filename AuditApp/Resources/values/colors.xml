@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorThirdText">#BABFB6</color>
+	<color name="textColorGrey">#B4BBC2</color>
+
+	<color name="colorPrimary">#4CAF50</color>
+	<color name="colorPrimaryDark">#087f23</color>
+	<color name="colorPrimaryLight">#80e27e</color>
+	<color name="colorAccent">#FFC107</color>
+	<color name="colorPrimaryText">#212121</color>
+	<color name="colorSecondaryText">#757575</color>
+	<color name="colorIcons">#212121</color>
+	<color name="colorDivider">#BDBDBD</color>
+
+	<color name="white">#ffffff</color>
+	<color name="semi_white">#F8F7F7</color>
+	<color name="black">#000000</color>
+	<color name="view_color">#eaeaea</color>
+	<color name="transparent">#00000000</color>
+	<color name="gradient_grey_1">#F0F0F5</color>
+	<color name="gradient_grey_2">#F7F8FA</color>
+	<color name="layout_background">#F6F7FA</color>
+	<color name="green">#18CF18</color>
+	<color name="light_green">#62EE7A</color>
+	<color name="light_pink">#FC66E4</color>
+	<color name="light_red">#FD6C7C</color>
+	<color name="yellow">#FBC02D</color>
+	<color name="mustard">#FFA000</color>
+	<color name="light_sky_blue">#549AFC</color>
+	<color name="color_light_yellow">#fff1c2</color>
+	<color name="mettal_grey">#ccd5e1</color>
+	<color name="color_musturd_yellow">#FFD75A</color>
+	<color name="colorPrimary_light">#6C8BFA</color>
+	<color name="orange_light">#FE9778</color>
+	<color name="orange_dark">#Fd6f6D</color>
+	<color name="purple">#cd34fa</color>
+	<color name="star_yellow">#FFA000</color>
+	<color name="white_trans">#51FFFFFF</color>
+	<color name="colorCheckIn">#29b36f</color>
+</resources>

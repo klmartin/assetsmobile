@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/detaillLineItem"
+    android:background="@color/transparent"
+    android:paddingStart="@dimen/spacing_small"
+    android:paddingEnd="@dimen/spacing_standard_new"
+    android:paddingTop="@dimen/spacing_middle"
+    android:paddingBottom="@dimen/spacing_middle">
+
+    <LinearLayout
+        android:id="@+id/llLineInfo"
+        android:orientation="horizontal"
+        android:layout_toEndOf="@id/ivLineImage"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_control_half"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLineLabelText"
+            android:layout_width="172.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/spacing_control_half"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/font_size_medium"
+            tools:text="CITS Dodoma is here and there "
+            android:layout_marginLeft="1dp"/>
+
+        <TextView
+            android:id="@+id/tvLineValueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryText"
+            android:textAppearance="@style/FontSemiBold"
+            android:textSize="@dimen/font_size_normal"
+            tools:text="Sumsung AC here and there  so wait for it"
+            android:layout_marginRight="1.5sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

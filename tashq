@@ -1,0 +1,322 @@
+[33mcommit efb47fa210a5a31e8e1cbaf71af456bfc147663a[m[33m ([m[1;36mHEAD -> [m[1;32monasis[m[33m)[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 21 03:39:05 2022 +0300
+
+    On progress: Working with Incidence reporting
+
+[33mcommit fdec02344c9e6710f081f97c7fc2f618547390d7[m[33m ([m[1;31morigin/onasis[m[33m)[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Thu Feb 17 12:04:17 2022 +0300
+
+    On progress: Populate view on click asset
+
+[33mcommit 716b8bfb6569c62c352cb727281d10af918d8b68[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Wed Feb 16 14:53:32 2022 +0300
+
+    Done: Handle SSL issue, project is working.
+
+[33mcommit c439152c124c5879d73532023d23d819465d7ff0[m
+Merge: 05c4dc1 fcb7e1a
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Wed Feb 16 10:25:09 2022 +0300
+
+    Merge with laison
+
+[33mcommit fcb7e1afe3c4f40658f2a744f9b76385a7a7746b[m[33m ([m[1;31morigin/laison[m[33m, [m[1;32mlaison[m[33m)[m
+Author: laison <laisonmarko@gmail.com>
+Date:   Wed Feb 16 09:00:40 2022 +0300
+
+    Assets scan complete
+
+[33mcommit 05c4dc134ce28dc50e6d1d8d7d5afbe4832eb24c[m[33m ([m[1;32mmain[m[33m)[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Feb 15 17:48:42 2022 +0300
+
+    On progress: Working with Incidence
+
+[33mcommit a596068c140b07c674bb7c7986858ac9ce04ef43[m
+Merge: 760a33b 113fe5f
+Author: laison <laisonmarko@gmail.com>
+Date:   Tue Feb 15 12:56:51 2022 +0300
+
+    merged with Onasis the great
+
+[33mcommit 760a33b4f287a59bf3c04368b2197ef6d2be990e[m
+Merge: abdac4b 6127d42
+Author: laison <laisonmarko@gmail.com>
+Date:   Tue Feb 15 12:55:45 2022 +0300
+
+    merged
+
+[33mcommit 113fe5f91953d64425b1d6d44dde56aab44fc850[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Feb 15 12:51:48 2022 +0300
+
+    On progress: Working with Incidence
+
+[33mcommit abdac4b10d590a0c8a6440153d460194e80c21c5[m
+Author: laison <laisonmarko@gmail.com>
+Date:   Tue Feb 15 12:48:57 2022 +0300
+
+    Asset profile init
+
+[33mcommit a5607896dfa0426424848f7344c8d3c1f050bf54[m
+Merge: c89cb4e 6127d42
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Feb 15 08:11:57 2022 +0300
+
+    Merge branch 'main' into onasis
+
+[33mcommit 6127d42a1a51a0fac619c5169c75dddaba9654e5[m
+Merge: 74571e8 da8795b
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Tue Feb 15 08:08:57 2022 +0300
+
+    Merge branch 'main' of https://bitbucket.org/DevelopersRepo/assetsmobile
+
+[33mcommit da8795b6239df272d125878e740a12953cc05e92[m
+Author: martin kaboja <martinkabojja@gmail.com>
+Date:   Mon Feb 14 17:53:04 2022 +0300
+
+    progress
+
+[33mcommit c89cb4e48b69324e3bb885cb8d2d3f4d2e0b376b[m
+Merge: b863c08 74571e8
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 16:02:19 2022 +0300
+
+    Done: Successful merge with main
+
+[33mcommit b863c082b721ce78d96dfcdcecfd6ac0730a1731[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 15:26:29 2022 +0300
+
+    On progress:
+
+[33mcommit 74571e87f5540860c554eec6f1d8b1bf61960aa7[m
+Merge: 6f494c2 8cc5159
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 11:18:10 2022 +0300
+
+    Merge branch 'main' of https://bitbucket.org/DevelopersRepo/assetsmobile
+
+[33mcommit 8cc51595e0b4f3a76dfd045fc3e27cd25cb3dd41[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Mon Feb 14 11:10:43 2022 +0300
+
+    some resource files
+
+[33mcommit 57e852a39663d3d695894751740f9e0b6a1f76e6[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Mon Feb 14 11:03:45 2022 +0300
+
+    added resource files
+
+[33mcommit 71a814b23f8e823d3aedf04a2133911b842e7ab3[m
+Merge: d6b3f6b 6f494c2
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 09:53:04 2022 +0300
+
+    Done merging with main
+
+[33mcommit 50f2ae1460da088d25e1a81b456149fdf71c1333[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Mon Feb 14 09:51:19 2022 +0300
+
+    flex item line change font name
+
+[33mcommit 6f494c24a9097aa6daf36c980a4255b6d0484487[m
+Merge: f452c0a ae8551c
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 09:50:39 2022 +0300
+
+    Merge branch 'main' of https://bitbucket.org/DevelopersRepo/assetsmobile into main
+
+[33mcommit d6b3f6b9c300b8e2f409f88a839f9f4f6d360882[m
+Merge: 9d1316f f452c0a
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 09:50:10 2022 +0300
+
+    Done: Merging with master
+
+[33mcommit 2db8ec1778827a5364fc325f192b8fdea1a66019[m
+Merge: d73d4e1 ae8551c
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Mon Feb 14 09:43:33 2022 +0300
+
+    merged with master
+
+[33mcommit d73d4e1ad7ef8a7934cdeec3e86c19df3d6bfe05[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Mon Feb 14 09:39:13 2022 +0300
+
+    solved button styles
+
+[33mcommit 9d1316ff1627343633a6e8a2497992330f04431c[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 09:08:16 2022 +0300
+
+    DOne: Solving font issue
+
+[33mcommit f452c0a9de3b3bbd0c32adeb3ea8046ac8937012[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 08:39:39 2022 +0300
+
+    Done: Remove some unused writelines
+
+[33mcommit 75e82272f6781ce04bec19e321017bfe779b4db4[m
+Merge: b4ae3d3 c45b02e
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 08:05:33 2022 +0300
+
+    Merge branch 'main' of https://bitbucket.org/DevelopersRepo/assetsmobile into main
+
+[33mcommit f4240b3cc3ee73f78bd0aa4e356676954e285dbf[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Mon Feb 14 08:04:59 2022 +0300
+
+    On progress:
+
+[33mcommit ae8551cd4a58f8041d6e680bf64c159de5400f83[m
+Author: martin kaboja <martinkabojja@gmail.com>
+Date:   Mon Feb 14 06:05:42 2022 +0300
+
+    saturday asset search
+
+[33mcommit b4ae3d353e5ffb7a8db09bedd2692da3fa329e99[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Feb 12 17:50:12 2022 +0300
+
+    Done:
+
+[33mcommit c45b02e8ff85a0514bf4b513b9610066eeda79da[m
+Merge: e4eee28 8949ad4
+Author: martin kaboja <martinkabojja@gmail.com>
+Date:   Sat Feb 12 17:39:26 2022 +0300
+
+    megerd
+
+[33mcommit e4eee28444724d925fab0e4dea791dad07ecf1ee[m
+Author: martin kaboja <martinkabojja@gmail.com>
+Date:   Sat Feb 12 17:30:29 2022 +0300
+
+    splash screen and login
+
+[33mcommit 62e581eb72e4a2cf8409cc2e81a36b28022e4ed3[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Feb 12 16:26:16 2022 +0300
+
+    Done:
+
+[33mcommit 8949ad404a048db8f9a6d24aa02ea565160f40be[m
+Merge: 832093d 38dbf46
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Sat Feb 12 15:29:25 2022 +0300
+
+    resolved
+
+[33mcommit 832093df41a51688bcc601abd1d1dc6d25a03a91[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Sat Feb 12 15:26:49 2022 +0300
+
+    resolved mrerge markers error
+
+[33mcommit 38dbf4660179f5b789c4c5f40d1f6df5229cc95c[m
+Merge: 6e706e9 66cf1b1
+Author: laison <laisonmarko@gmail.com>
+Date:   Sat Feb 12 15:15:38 2022 +0300
+
+    Merge branch 'main' of https://bitbucket.org/DevelopersRepo/assetsmobile
+
+[33mcommit 6e706e9dabf4c40e18ab11d05dfb49b9fd7ba8c7[m
+Author: laison <laisonmarko@gmail.com>
+Date:   Sat Feb 12 15:14:51 2022 +0300
+
+    fix merging errors
+
+[33mcommit 66cf1b19224ef2e404f99f02389f733983cdf9ba[m
+Merge: 29c1cfd 5cd8553
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Sat Feb 12 14:59:46 2022 +0300
+
+    merged with remote
+
+[33mcommit 29c1cfd59d9d2c4f178bc205a34b56a88fa597cf[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Sat Feb 12 14:48:12 2022 +0300
+
+    splash and login for movement
+
+[33mcommit 5cd85536597d4ac556872e5ff4bf960d2cec41fe[m
+Author: laison <laisonmarko@gmail.com>
+Date:   Sat Feb 12 14:45:02 2022 +0300
+
+    fix color merging
+
+[33mcommit bf02f98add30157a6a5bc0df4e9d6df36cea9ff7[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Feb 12 14:29:42 2022 +0300
+
+    On progress:
+
+[33mcommit 72a28684dab9c40cadd301ba74dcba3f8ae3b33b[m
+Author: onassiskenan <onassiskenan@gmail.com>
+Date:   Sat Feb 12 14:27:37 2022 +0300
+
+    On progress:
+
+[33mcommit 26b42230894d178efe3fd2645e264675acec65c4[m
+Merge: 0d1c76f e880325
+Author: laison <laisonmarko@gmail.com>
+Date:   Sat Feb 12 14:26:40 2022 +0300
+
+    merged
+
+[33mcommit 0d1c76fd2d8f685fe2a05903a59b0b7be030ceb7[m
+Author: laison <laisonmarko@gmail.com>
+Date:   Sat Feb 12 14:20:07 2022 +0300
+
+    splash and login complete
+
+[33mcommit 44d06813399f1abb13a228f8a3f619988dbb1b1f[m
+Author: laison <laisonmarko@gmail.com>
+Date:   Fri Feb 11 15:02:05 2022 +0300
+
+    added files
+
+[33mcommit e880325eb6072a2d633b9afa87c09ec27dac6054[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Fri Feb 11 14:00:37 2022 +0300
+
+    added resources
+
+[33mcommit ec5cb24a6094c3d2be303f98bac06129d02efb12[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Thu Feb 10 09:28:37 2022 +0300
+
+    added image resources
+
+[33mcommit 7670cfef8f3a07bdf51a4e9197f241ed9222a3fc[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Wed Feb 9 10:06:22 2022 +0300
+
+    added nav drawer to assetapp
+
+[33mcommit 62d8cfa3efc424efda54ec8c15a264b8321eca39[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Tue Feb 8 09:48:11 2022 +0300
+
+    started applications
+
+[33mcommit 452191918eec242f9d6f3d7bae99981808a505bb[m
+Author: tino billdad <tinodady33@gmail.com>
+Date:   Tue Feb 8 09:47:00 2022 +0300
+
+    git ignore files
+
+[33mcommit 0555eac1e9d4146f4624525757c9fd555ed853d0[m
+Author: Developers Repo <dev.repo@cits.co.tz>
+Date:   Tue Feb 8 06:32:56 2022 +0000
+
+    Initial commit

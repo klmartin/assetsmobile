@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+	<group android:checkableBehavior="single">
+
+		<item android:title="Communicate">
+			<item
+				android:id="@+id/nav_camera"
+				android:icon="@drawable/ic_menu_camera"
+				android:title="Asset Profile" />
+			<item
+				android:id="@+id/nav_incidence"
+				android:icon="@drawable/ic_menu_send"
+				android:title="Incidence" />
+			<item
+				android:id="@+id/nav_placement"
+				android:icon="@drawable/ic_menu_slideshow"
+				android:title="Placement" />
+		</item>
+	</group>
+
+
+</menu>
+

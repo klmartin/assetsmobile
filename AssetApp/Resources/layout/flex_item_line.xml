@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rlMovementItem"
+    android:background="@drawable/shadoe"
+    android:paddingStart="@dimen/spacing_small"
+    android:paddingEnd="@dimen/spacing_standard_new"
+    android:paddingTop="@dimen/spacing_middle"
+    android:paddingBottom="@dimen/spacing_middle">
+
+    <ImageView
+        android:id="@+id/ivLineImage"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="63.5dp"
+        android:src="@drawable/ph_asset"
+        android:contentDescription=""
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginBottom="0.0dp" />
+
+    <LinearLayout
+        android:id="@+id/llMovementInfo"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/ivLineImage"
+        android:layout_marginTop="0.0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dp">
+
+        <TextView
+            android:id="@+id/tvLinePrimaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="bold"
+            android:textAppearance="@style/FontSemiBold"
+            android:textSize="@dimen/font_size_normal"
+            tools:text="Sumsung AC"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="8.0dp"
+            android:layout_marginRight="27.5dp" />
+
+        <TextView
+            android:id="@+id/tvLineSecondaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="21.5dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="normal"
+            android:textSize="@dimen/font_size_small"
+            tools:text="Select Condition"
+            android:layout_marginBottom="4.5dp"
+            android:layout_marginTop="4.5dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
